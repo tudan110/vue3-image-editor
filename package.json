@@ -1,6 +1,6 @@
 {
   "name": "@tudan110/vue3-image-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "TOAST UI Image-Editor for Vue3",
   "type": "module",
   "main": "./dist/toastui-vue3-image-editor.umd.js",
