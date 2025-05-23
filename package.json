@@ -15,8 +15,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build",
-    "publish": "npm publish --access public"
+    "build": "vite build"
   },
   "homepage": "https://github.com/tudan110/vue3-image-editor",
   "bugs": "https://github.com/tudan110/vue3-image-editor/issues",
