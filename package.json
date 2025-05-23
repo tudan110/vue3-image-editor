@@ -1,0 +1,43 @@
+{
+  "name": "@tudan110/vue3-image-editor",
+  "version": "1.0.1",
+  "description": "TOAST UI Image-Editor for Vue3",
+  "type": "module",
+  "main": "./dist/toastui-vue3-image-editor.umd.js",
+  "module": "./dist/toastui-vue3-image-editor.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/toastui-vue3-image-editor.es.js",
+      "require": "./dist/toastui-vue3-image-editor.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "publish": "npm publish --access public"
+  },
+  "homepage": "https://github.com/tudan110/vue3-image-editor",
+  "bugs": "https://github.com/tudan110/vue3-image-editor/issues",
+  "author": "tudan110 <wtudan@126.com>",
+  "repository": "https://github.com/tudan110/vue3-image-editor.git",
+  "license": "MIT",
+  "browserslist": [
+    "last 2 versions",
+    "not ie <= 9"
+  ],
+  "peerDependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "tui-color-picker": "^2.2.8",
+    "vite": "^6.3.5",
+    "vue": "^3.5.13"
+  },
+  "dependencies": {
+    "fabric": "^4.2.0",
+    "tui-image-editor": "^3.15.3"
+  }
+}
