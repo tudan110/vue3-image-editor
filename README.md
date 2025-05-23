@@ -2,6 +2,9 @@
 
 > This is a Vue3 component wrapping [TOAST UI Image Editor](https://github.com/nhn/tui.image-editor).
 
+# Demo
+> This is a demo that shows how to use it [vue3-image-editor-demo](https://github.com/tudan110/vue3-image-editor-demo).
+
 [![npm version](https://img.shields.io/npm/v/tui-image-editor.svg)](https://www.npmjs.com/package/@tudan110/vue3-image-editor)
 
 ## 🚩 Table of Contents
